@@ -1,0 +1,14 @@
+<?php
+for($i=0;$i<=90;$i++)
+{
+    echo "Grados:";
+    echo $i;
+    echo"\n";
+    echo " el senos es:";
+    echo sin($i*pi()/180);
+    echo"\n";
+    echo" el coseno es:";
+    echo cos($i*pi()/180);
+    echo"\n";
+}
+?>
